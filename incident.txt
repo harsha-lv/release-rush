@@ -1,0 +1,12 @@
+﻿RELEASE INCIDENT
+
+The production deployment manifest has disappeared from main.
+
+The application team has also developed a health-check
+feature on a separate branch.
+
+Investigate the repository and restore the production release.
+
+Preserve all existing application functionality.
+
+Do not discard later commits.
