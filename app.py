@@ -3,6 +3,7 @@ API_VERSION = "v2"
 
 def service_info():
     return {
-        "name": APP_NAME,
-        "version": API_VERSION
+        "service": APP_NAME,
+        "version": API_VERSION,
+        "health": "ok"
     }
